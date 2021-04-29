@@ -14,12 +14,11 @@
 
 const average = (arr) => {
   let sum = 0;
-  for (element of arr) {
+  for (const element of arr) {
     if (typeof element !== 'number') {
       return undefined;
-    } else {
-      sum += element;
     }
+    sum += element;
   }
   return element / arr.length;
 };
