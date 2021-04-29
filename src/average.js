@@ -21,7 +21,7 @@ const average = (arr) => {
     }
     sum += element;
   }
-  result = Math.round(sum / arr.length);
+  const result = Math.round(sum / arr.length);
   return result;
 };
 
